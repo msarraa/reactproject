@@ -1,5 +1,6 @@
 import React from "react";
 import ResponsiveSymbol from '../component/ResponsiveSymbol';
+import ProductButton from "./ProductButton";
 
 class Home extends React.Component {
   render() {
@@ -13,14 +14,12 @@ class Home extends React.Component {
             <h3>Varmt Välkommen hit! <br/>För dig som föredrar annorlunda</h3>
             <p>Jag som nästan aldrig sitter still i båten heter Marléne och hittas i Gällivare. Jag designar, trycker på muggar, nyckelringar, glasunderlägg, gosedjur, väskor och allt möjligt. Det du beställer kommer direkt från oss "Belle Bi", Namnet är hämtat från barnramsan "Elle Belle Bi".</p>
             <p>Jag hoppas att du ska hitta något som du tycker om och är det nånting du funderar över så får du jättegärna höra av dig.</p>
-            <button className="btn btn-primary" onClick={() => window.location.href="/produkter"}>
-        		<h4> Se alla produkter </h4>
-      		</button>
+            <ProductButton />
           </div>
         </div>
-		<div className="home-page">
-      <ResponsiveSymbol />
-    </div>
+	<div className="home-page">
+      		<ResponsiveSymbol />
+    	</div>
       </section>
     );
   }

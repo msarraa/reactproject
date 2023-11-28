@@ -18,7 +18,7 @@ class Produkter extends React.Component {
         </div>
         <div class="box">
           <img src="images/muggar.png" alt="Bild 4"/>
-          <h3><a href="produkter2.html">Muggar</a></h3>
+          <h3>Muggar</h3>
         </div>
         <div class="box">
           <img src="images/Canvastavlor.jpg" alt="Bild 5"/>

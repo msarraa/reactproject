@@ -176,7 +176,15 @@
 		background: #9D2652;
 		margin-top: 20px;
 		cursor: pointer;
+		display: block;
 	  }
+	
+	.btn:hover {
+		border: 1px solid #6C837E;
+		  background: #6C837E;
+		  transition: 1s;
+	}
+	
 
 	  h4{
 		color: #F1EFEC;
