@@ -24,7 +24,7 @@ function ResponsiveSymbol() {
             >
                 <img src="images/symbol.png" alt="symbol" height="50" width="auto" />
 		</button>
-            <p>Tryvk på vår symbol för att visa stöd till vårt arbete: {clickCount}</p>
+            <p>Tryck på symbolen för att visa stöd till vårt arbete: {clickCount}</p>
         </div>
     );
 }
